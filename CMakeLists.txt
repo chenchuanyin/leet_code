@@ -13,3 +13,9 @@ target_link_libraries(two_sum_test gtest_main)
 
 add_executable(reverse_integer_test src/reverse_integer_test.cc)
 target_link_libraries(reverse_integer_test gtest_main)
+
+add_executable(string2int_test src/string2int_test.cc)
+target_link_libraries(string2int_test gtest_main)
+
+add_executable(palindrome_number_test src/palindrome_number_test.cc)
+target_link_libraries(palindrome_number_test gtest_main)
