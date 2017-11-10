@@ -19,3 +19,6 @@ target_link_libraries(string2int_test gtest_main)
 
 add_executable(palindrome_number_test src/palindrome_number_test.cc)
 target_link_libraries(palindrome_number_test gtest_main)
+
+add_executable(find_peek_number_test src/find_peek_number_test.cc)
+target_link_libraries(find_peek_number_test gtest_main)
