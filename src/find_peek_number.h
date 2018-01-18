@@ -1,4 +1,3 @@
-
 #ifndef LEETCODE_FIND_PEEK_NUMBER_H__
 #define LEETCODE_FIND_PEEK_NUMBER_H__
 
@@ -26,4 +25,5 @@ public:
     return e;
   }
 };
+
 #endif // LEETCODE_FIND_PEEK_NUMBER_H__

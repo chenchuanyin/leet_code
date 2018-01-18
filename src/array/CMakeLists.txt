@@ -1,0 +1,32 @@
+add_executable(remove_duplicates_from_sorted_array_unittest remove_duplicates_from_sorted_array_unittest.cc)
+target_link_libraries(remove_duplicates_from_sorted_array_unittest gtest_main gtest)
+
+add_executable(best_time_to_buy_and_sell_stock_two_unittest best_time_to_buy_and_sell_stock_two_unittest.cc)
+target_link_libraries(best_time_to_buy_and_sell_stock_two_unittest gtest_main gtest)
+
+add_executable(rotate_array_unittest rotate_array_unittest.cc)
+target_link_libraries(rotate_array_unittest gtest_main gtest)
+
+add_executable(contains_duplicate_unittest contains_duplicate_unittest.cc)
+target_link_libraries(contains_duplicate_unittest gtest_main gtest)
+
+add_executable(single_number_unittest single_number_unittest.cc)
+target_link_libraries(single_number_unittest gtest_main gtest)
+
+add_executable(intersection_of_two_array_two_unittest intersection_of_two_array_two_unittest.cc)
+target_link_libraries(intersection_of_two_array_two_unittest gtest_main gtest)
+
+add_executable(plus_one_unittest plus_one_unittest.cc)
+target_link_libraries(plus_one_unittest gtest_main gtest)
+
+add_executable(move_zeroes_unittest move_zeroes_unittest.cc)
+target_link_libraries(move_zeroes_unittest gtest_main gtest)
+
+add_executable(two_sum_unittest two_sum_unittest.cc)
+target_link_libraries(two_sum_unittest gtest_main gtest)
+
+add_executable(valid_sudoku_unittest valid_sudoku_unittest.cc)
+target_link_libraries(valid_sudoku_unittest gtest_main gtest)
+
+add_executable(rotate_image_unittest rotate_image_unittest.cc)
+target_link_libraries(rotate_image_unittest gtest_main gtest)
