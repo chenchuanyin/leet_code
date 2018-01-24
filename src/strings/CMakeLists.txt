@@ -1,0 +1,17 @@
+add_executable(reverse_string_unittest reverse_string_unittest.cc)
+target_link_libraries(reverse_string_unittest gtest gtest_main)
+
+add_executable(reverse_integer_unittest reverse_integer_unittest.cc)
+target_link_libraries(reverse_integer_unittest gtest gtest_main)
+
+add_executable(first_unique_character_in_a_string_unittest first_unique_character_in_a_string_unittest.cc)
+target_link_libraries(first_unique_character_in_a_string_unittest gtest gtest_main)
+
+add_executable(valid_anagram_unittest valid_anagram_unittest.cc)
+target_link_libraries(valid_anagram_unittest gtest gtest_main)
+
+add_executable(valid_palindrome_unittest valid_palindrome_unittest.cc)
+target_link_libraries(valid_palindrome_unittest gtest gtest_main)
+
+add_executable(string_to_integer_unittest string_to_integer_unittest.cc)
+target_link_libraries(string_to_integer_unittest gtest gtest_main)
