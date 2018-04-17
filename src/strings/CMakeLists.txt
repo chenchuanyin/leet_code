@@ -15,3 +15,9 @@ target_link_libraries(valid_palindrome_unittest gtest gtest_main)
 
 add_executable(string_to_integer_unittest string_to_integer_unittest.cc)
 target_link_libraries(string_to_integer_unittest gtest gtest_main)
+
+add_executable(implement_strstr_unittest  implement_strstr_unittest.cc)
+target_link_libraries(implement_strstr_unittest gtest gtest_main)
+
+add_executable(long_common_prefix_unittest  long_common_prefix_unittest.cc)
+target_link_libraries(long_common_prefix_unittest gtest gtest_main)
